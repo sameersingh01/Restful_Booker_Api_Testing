@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="CRUD_Operations.TestPUT">
+        <methods>
+          <include name="startTest"/>
+          <include name="init"/>
+          <include name="setUPRequest"/>
+          <include name="setupTest"/>
+          <include name="reportFlush"/>
+          <include name="putReq"/>
+        </methods>
+      </class> <!-- CRUD_Operations.TestPUT -->
+      <class name="CRUD_Operations.TestGET">
+        <methods>
+          <include name="setupTest"/>
+          <include name="setUPRequest"/>
+          <include name="startTest"/>
+          <include name="init"/>
+          <include name="getReq"/>
+          <include name="reportFlush"/>
+        </methods>
+      </class> <!-- CRUD_Operations.TestGET -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
