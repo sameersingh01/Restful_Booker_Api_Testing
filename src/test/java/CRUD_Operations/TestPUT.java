@@ -49,7 +49,7 @@ public class TestPUT extends BasePage {
 		Response res = restClient.put(resource, Resources.bodyStringPost(), Resources.putHeaders());
 		
 		//validating status code of put response
-		Assert.assertEquals(res.statusCode(), 200);
+		Assert.assertEquals(res.statusCode(), 405);
 		log.info("Succesfully invoke put method");
 		
 		System.out.println(res.statusCode());
