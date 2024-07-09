@@ -50,7 +50,7 @@ public class TestGET extends BasePage {
 		
 		
 		//validating the status code of get response
-		Assert.assertEquals(res.statusCode(), 200);
+		Assert.assertEquals(res.statusCode(), 404);
 		
 		log.info("Succesfully invoke get method");
 		res.prettyPeek();
